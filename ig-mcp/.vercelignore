@@ -1,0 +1,11 @@
+.env
+.env.*
+.venv/
+venv/
+.git/
+.github/
+tests/
+examples/
+scripts/
+logs/
+**/__pycache__/

@@ -1,0 +1,21 @@
+# Runtime dependencies (installed by Vercel). Dev/test tools live in requirements-dev.txt.
+
+# Core MCP dependencies (the low-level Server decorator API was removed in mcp 2.x)
+mcp>=1.25.0,<2
+
+# HTTP client for Instagram API
+httpx>=0.25.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Async support
+asyncio-throttle>=1.0.2
+
+# Image validation for publishing
+pillow>=10.0.0
+
+# Logging
+structlog>=23.2.0
